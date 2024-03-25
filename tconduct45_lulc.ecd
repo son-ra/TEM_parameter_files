@@ -157,7 +157,7 @@
     <albedo>0.18</albedo>
     <lscmin>0.25</lscmin>
     <groot>0.02</groot>
-    <kstem>50000.0</kstem>
+    <kstem>20000.0</kstem>
     <rhostem>250.0</rhostem>
   </community>
 
