@@ -1,0 +1,66 @@
+ "1" = "Ice" =  1
+ "2" = "Alpine Tundra/Polar Desert" =  2
+ "3" = "Moist/Wet Tundra" =  3
+ "4" = "Boreal Forest" =  4
+ "5" = "Forested Boreal Wetlands" =  4
+ "6" = "Boreal Woodlands" =  4 = 50.00 % =  3
+ "7" = "Non-forested Boreal Wetlands" =  3
+ "8" = "Mixed Temperate Forests" =  5 = 50.00 % =  6
+ "9" = "Temperate Coniferous Forests" =  5
+ "10" = "Temperate Deciduous Forests" =  6
+ "11" = "Temperate Forested Wetlands" =  6
+ "12" = "Tall Grasslands" =  7
+ "13" = "Short Grasslands" =  8
+ "14" = "Tropical Savannas" =  8 = 50.00 % =  10
+ "15" = "Arid Shrublands" =  9
+ "16" = "Tropical Evergreen Forests" =  10
+ "17" = "Tropical Forested Wetlands" =  10
+ "18" = "Tropical Deciduous Forests" =  10
+ "19" = "Xeromorphic Forests = Woodlands" =  11
+ "20" = "Tropical Forested Floodplains" =  10
+ "21" = "Deserts" =  9
+ "22" = "Tropical Non-forested Wetlands" =  8
+ "23" = "Tropical Non-forested Floodplains" =  8
+ "24" = "Temperate Non-forested Wetlands" =  8
+ "25" = "Temperate Forested Floodplains" =  6
+ "26" = "Temperate Non-forested Floodplain" =  8
+ "27" = "Wet Savannas" =  8 = 50.00 % =  10
+ "28" = "Salt Marsh" =  8
+ "29" = "Mangroves" =  10
+ "30" = "Tidal Freshwater Marshes" =  8
+ "31" = "Temperate Savannas" =  8 = 50.00 % =  6
+ "33" = "Temperate Broadleaved Evergreen Forests" =  12
+ "35" = "Mediterranean Shrublands" =  13
+ "46" = "Suburban"  =  17 = 50.00 % =  6
+ "47" = "Rodale Pasture" =  20 = 100.00 % =  0
+ "48" = "Turflawn" =  17 = 100.00 % =  0
+ "49" = "Vegetable Farm" =  19
+ "50" = "Crops" =  15
+ "51" = "Pasture" =  18
+ "52" = "Maize" =  15
+ "53" = "Wheat" =  7
+ "54" = "Rice" =  7
+ "55" = "Soybean" =  16
+ "56" = "Potato" =  7
+
+
+
+ forest_vegs = [4, 5, 6, 8, 9, 10, 11, 16, 17, 18, 19, 20, 25, 33]
+forest_types = ["Boreal Forest", "Forested Boreal Wetlands", "Boreal Woodlands","Mixed Temperate Forests", 
+               "Temperate Coniferous Forests", "Temperate Deciduous Forests", "Temperate Forested Wetlands", 
+               "Tropical Evergreen Forests", "Tropical Forested Wetlands", "Tropical Deciduous Forests", "Xeromorphic Forests and Woodlands"
+               ,"Tropical Forested Floodplains", "Temperate Forested Floodplains", "Temperate Broadleaved Evergreen Forests"]
+
+forest_pfts = pd.DataFrame({
+'current_veg':forest_vegs, 
+    'forest_type':forest_types
+})
+
+
+forest_subtypes = [4, 5, 6, 10, 12]
+forest_subtypes_names = ["Boreal", "Temperate Coniferous", "Temperate Deciduous", "Tropical", "Temperate Broadleaved Evergreen Forests"]
+
+forest_subtypes = pd.DataFrame({
+'subtype':forest_subtypes, 
+    'forest_type':forest_subtypes_names
+})
