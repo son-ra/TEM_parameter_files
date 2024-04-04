@@ -307,8 +307,8 @@
 
 <community type = "20"
     description = "Moist Pasture"
-    developedBy = "B Felzer/T Cronin"
-    updated = "20090121">
+    developedBy = "B Felzer"
+    updated = "2015">
     <cdleaf>0.1</cdleaf>
     <wleaf>0.01</wleaf>
     <gsa>3.623</gsa>
@@ -320,6 +320,5 @@
     <kstem>220000.0</kstem>
     <rhostem>250.0</rhostem>
   </community>
-
 </gcECD>
 
