@@ -369,7 +369,7 @@
     <cnseed>30.0</cnseed>
     <pseedlc>0.0</pseedlc>
     <fsaplive>0.17</fsaplive>
-    <phen>0.5</phen>
+    <phen>0</phen>
     <nnf>0</nnf>
   </community>
 
